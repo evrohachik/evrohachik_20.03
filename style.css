@@ -1,0 +1,42 @@
+input {
+	border: none;
+	float: left;
+}
+.border {
+	float: left;
+}
+.first {
+	background: repeat-x url('border.png');
+	color: #5d7731;
+	font: 12px HelverticaNeue, sans-serif;
+	padding: 0 8px;
+	line-height: 31px;
+	/* width: 98%; */
+}
+.first:hover {
+	background: repeat-x url('border_hover.png');
+}
+.first:active {
+	background: #a7cf5f repeat-x url('border_active.png');	
+	/* пробовал паддинг марджин line height не додумался как сделать 
+		боль мень похожее как на макете*/ 
+}
+.second, .third {
+	font: bold 12px HelverticaNeue, sans-serif;
+	padding: 0 10px;
+	line-height: 30px;
+}
+.second {
+	background: repeat-x url('border1.png');
+	color: #555555;
+}
+.third {
+	background: repeat-x url('border2.png');
+	color: #fff;
+}
+.second:hover {
+	background: repeat-x url('border1_hover.png');
+}
+.third:hover {
+	background: repeat-x url('border2_hover.png');
+}
